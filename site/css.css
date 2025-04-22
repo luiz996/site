@@ -1,0 +1,112 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-image: url("cinco.png");
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#logo{
+    width: 10%;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#menu{
+    width: 30%;
+}
+
+#menu ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a{
+    text-decoration: none;
+    color: rgb(219, 136, 58);
+    font-size: 1.4em;
+    font-family: "Ojuju";
+}
+
+#menu a:hover{
+    color: aquamarine;
+    font-size: 1.6em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#home{
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    background-image: url("shrek.png");
+    background-size: cover;
+    justify-content: space-around;
+}
+
+#home article{
+    width: 40%;
+    display: flex;
+    color: #e70cb8;
+    flex-wrap: wrap;
+    font-size: 2em;
+    line-height: 2em;
+    font-family: "Ojuju";
+    font-weight: bolder;
+}
+
+#home h1{
+    text-align: right;
+    width: 100%;
+}
+
+#home p{
+    text-align: right;
+    width: 100%;
+}
+
+#servicos{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+#servicos article{
+    width: 20%
+}
+
+#servicos img{
+    width: 100%;
+}
+
+#galeria{
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+}
+
+#galeria img{
+    width: 90%;
+}
