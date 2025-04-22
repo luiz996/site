@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(meme-icegif-1.gif);
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+li button {
+    margin-left: 5px;
+}
+
+li button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+li button.rename {
+    background-color: #FF9800;
+    color: white;
+}
+
+li button:hover {
+    opacity: 0.8;
+}
